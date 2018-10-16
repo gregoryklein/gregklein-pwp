@@ -1,2 +1,2 @@
 # gregklein-pwp
-This is my personal website project which will use my gregkle.in domain.
+My PWP is a personal portfolio which will use a custom domain (TBD).
