@@ -1,2 +1,2 @@
 # gregklein-pwp
-repo for my Personal Website Project (using gregkle.in domain)
+This is my personal website project which will use my gregkle.in domain.
