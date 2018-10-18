@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
+	margin: 2%;
 	font-family: 'Roboto', sans-serif;
+	font-size: 110%;
 }
 
+li {
+	padding: 8px;
+}
 .responsive {
+	background-color: #ededed;
 	max-width: 20%;
 	height: auto;
-	background-color:#000000;
-	border-radius: 4px;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	border-radius: 64px;
+
+}
+
+.infoBox {
+	padding: 1em;
+	background-color:#ffffff;
+	font-size: 1.25em;
 }
 
 /* Might add back later
