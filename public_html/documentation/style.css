@@ -9,12 +9,12 @@ body {
 li {
 	padding: 8px;
 }
+
 .responsive {
 	background-color: #ededed;
 	max-width: 20%;
 	height: auto;
 	border-radius: 64px;
-
 }
 
 .infoBox {
