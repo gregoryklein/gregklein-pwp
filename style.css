@@ -8,10 +8,27 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 1080px;
+}
+
+.landingpage {
+	background-color: white;
+}
+
+.portfolio {
+	background-color: green;
+}
+
+.contactme {
+	background-color: blue;
 }
 
 /* mobile style */
 @media only screen and (max-width: 480px) {
+	.desktopnav {
+		display: none;
+	}
+
 	.section {
 
 	}
@@ -25,11 +42,18 @@ body {
 @media only screen
 and (min-width: 481px)
 and (max-width: 1024px) {
+	.desktopnav {
+		display: none;
+	}
+
 }
 
 /* desktops and laptops */
 @media only screen
 and (min-width: 1224px) {
+	.mobilenav {
+		display: none;
+	}
 	h1 {
 		color: blue;
 	}
