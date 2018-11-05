@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* mobile style */
+@media only screen and (max-width: 480px) {
+	.section {
+
+	}
+
+	h1 {
+		color: red;
+	}
+}
+
+/* tablets */
+@media only screen
+and (min-width: 481px)
+and (max-width: 1024px) {
+}
+
+/* desktops and laptops */
+@media only screen
+and (min-width: 1224px) {
+	h1 {
+		color: blue;
+	}
+}
