@@ -7,19 +7,13 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	height: 1080px;
+	height: 100vh;
 }
 
-.botmobilenav {
+.stickynav {
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
-}
-
-.desktopnav {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .landingpage {
@@ -36,9 +30,6 @@ body {
 
 /* mobile style */
 @media only screen and (max-width: 480px) {
-	.desktopnav {
-		display: none;
-	}
 
 	.section {
 
@@ -53,21 +44,13 @@ body {
 @media only screen
 and (min-width: 481px)
 and (max-width: 1024px) {
-	.desktopnav {
-		display: none;
-	}
 
 }
 
 /* desktops and laptops */
 @media only screen
 and (min-width: 1025px) {
-	.topmobilenav {
-		display: none;
-	}
-	.botmobilenav {
-		display: none;
-	}
+
 	h1 {
 		color: blue;
 	}
