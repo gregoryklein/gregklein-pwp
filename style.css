@@ -7,8 +7,19 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	height: 1080px;
+}
+
+.botmobilenav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.desktopnav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .landingpage {
@@ -50,8 +61,11 @@ and (max-width: 1024px) {
 
 /* desktops and laptops */
 @media only screen
-and (min-width: 1224px) {
-	.mobilenav {
+and (min-width: 1025px) {
+	.topmobilenav {
+		display: none;
+	}
+	.botmobilenav {
 		display: none;
 	}
 	h1 {
