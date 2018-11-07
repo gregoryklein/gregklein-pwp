@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+/* CSS variables */
+:root {
+
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -43,7 +48,6 @@ a:visited {
 }
 
 /* styling for the landing page and contents */
-
 .landingpage {
 	background-color: white;
 }
@@ -75,11 +79,10 @@ a:visited {
 }
 
 /* portfolio section */
-/*
 .portfolio {
 	background-color: #e7e7e7;
 }
-*/
+
 
 .portfoliopics {
 	display: flex;
@@ -88,10 +91,11 @@ a:visited {
 }
 
 .portpic {
-	width: 80vw;
+	width: 72vw;
 	height: 40vw;
-	background-color: black;
-	padding-bottom: 10vh;
+	border: 3px solid black;
+	margin-top: 6vh;
+	margin-bottom: 10vh;
 }
 
 .contactme {
