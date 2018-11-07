@@ -7,7 +7,7 @@ body {
 }
 
 .section {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 }
 
@@ -74,21 +74,32 @@ a:visited {
 	font-size: 3vh;
 }
 
-
+/* portfolio section */
+/*
 .portfolio {
 	background-color: #e7e7e7;
 }
+*/
+
+.portfoliopics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.portpic {
+	width: 80vw;
+	height: 40vw;
+	background-color: black;
+	padding-bottom: 10vh;
+}
 
 .contactme {
-	background-color: #cbcbcb;
+	background-color: #d1d1d1;
 }
 
 /* mobile style */
 @media only screen and (max-width: 480px) {
-
-	.section {
-
-	}
 
 
 }
