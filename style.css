@@ -59,7 +59,7 @@ a:visited {
 	display: flex;
 	padding-top: 5vh;
 	font-size: 5vw;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 .imagespace {
@@ -76,8 +76,9 @@ a:visited {
 
 .languages {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
-	align-items: flex-end;
+	align-items: center;
 	font-size: 2vw;
 }
 
@@ -88,14 +89,14 @@ a:visited {
 
 
 .portfoliopics {
-	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
 .portpic {
-	width: 72vw;
-	height: 40vw;
+	width: 60vw;
+	height: 30vh;
 	border: 3px solid black;
 	margin-top: 6vh;
 	margin-bottom: 10vh;
@@ -105,22 +106,17 @@ a:visited {
 	background-color: #d1d1d1;
 }
 
-/* mobile style */
-@media only screen and (max-width: 480px) {
+/* desktop style */
+@media (min-width: 600px) {
 
-
+.portfoliopics {
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-/* tablets */
-@media only screen
-and (min-width: 481px)
-and (max-width: 1024px) {
-
+.portpic {
+	width: 10vw;
+	height: 10vh;
 }
-
-/* desktops and laptops */
-@media only screen
-and (min-width: 1025px) {
-
-
 }
