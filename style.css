@@ -89,9 +89,11 @@ a:visited {
 
 
 .portfoliopics {
+	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
 .portpic {
@@ -109,14 +111,23 @@ a:visited {
 /* desktop style */
 @media (min-width: 600px) {
 
-.portfoliopics {
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-evenly;
-}
+	.portfoliopics {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
 
-.portpic {
-	width: 10vw;
-	height: 10vh;
-}
+	.portpic {
+		width: 35vw;
+		height: 35vh;
+	}
+
+	.languages {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		font-size: 4vh;
+	}
 }
