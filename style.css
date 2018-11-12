@@ -95,11 +95,15 @@ a:visited {
 }
 
 .portpic {
+	max-width: 60vw;
+}
+
+.testpic {
 	width: 60vw;
-	height: 30vh;
-	border: 3px solid black;
 	margin-top: 6vh;
 	margin-bottom: 10vh;
+	object-fit: scale-down;
+	max-width: 60vw;
 }
 
 /* contact me section */
@@ -117,9 +121,13 @@ a:visited {
 		justify-content: space-evenly;
 	}
 
-	.portpic {
+	.testpic {
+		object-fit: scale-down;
+		max-width: 35vw;
+		/*
 		width: 35vw;
 		height: 35vh;
+		*/
 	}
 
 	.languages {

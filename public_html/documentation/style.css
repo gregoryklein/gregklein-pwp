@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-	margin: 2%;
+	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 110%;
 }
 
 li {
