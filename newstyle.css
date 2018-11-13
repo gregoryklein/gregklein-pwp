@@ -45,6 +45,11 @@ h2 {
 	align-items: center;
 }
 
+.gitIcon {
+	height: 50px;
+	width: 50px;
+}
+
 .form-group {
 	display: flex;
 	justify-content: center;
