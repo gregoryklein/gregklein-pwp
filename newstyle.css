@@ -8,12 +8,32 @@
 body {
 	font-family: 'Nunito', 'Helvetica Neue', 'Calibri', sans-serif !important;
 }
-
-.container-fluid {
+/*
+.section {
 	width: 100vw;
 	height: 100vh;
+}
+*/
+
+.container {
+	padding-top: 50px;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
 }
 
 .languages {
 	display: inline;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+
+}
+
+.contactme {
+	margin-top: 200px;
 }
