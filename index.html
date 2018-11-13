@@ -3,23 +3,38 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		-->
-		<link href="./style.css" type="text/css" rel="stylesheet">
+
+		<link href="./newstyle.css" type="text/css" rel="stylesheet">
 		<Title>Greg Klein PWP</Title>
 	</head>
 	<body>
+	<!--
 		<nav class="stickynav">
 			<a href="#landing">Greg Klein</a>
 			<a href="#portfolio">Portfolio</a>
 			<a href="#contact">Contact Me</a>
 		</nav>
+	-->
 
-		<div class="section landingpage" id="landing">
+		<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="#">Portfolio</a>
+					<a class="nav-item nav-link" href="#">Contact Me</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid landingpage" id="landing">
 			<h1 class="name">GREG KLEIN</h1>
 			<div class="imagespace">
 
@@ -27,15 +42,39 @@
 			<div class="jobtitle">
 				<h2>Full Stack Web Developer</h2>
 			</div>
-			<div class="languages">
+			<div class="languages row">
+				<div class="languages col-sm-8">
 				<p>HTML</p>
 				<p>CSS</p>
 				<p>Angular</p>
 				<p>PHP</p>
 				<p>MySQL</p>
+				</div>
 			</div>
 		</div>
-		<div class="section portfolio" id="portfolio">
+		<div class="container-fluid section portfolio" id="portfolio">
+			<div class="row justify-content-around">
+				<div class="col-sm">
+					<div class="card">
+						<img class="card-img-top" src="https://i.ytimg.com/vi/g2ag8t7AvX8/maxresdefault.jpg" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="card">
+						<img class="card-img-top" src="https://i.ytimg.com/vi/g2ag8t7AvX8/maxresdefault.jpg" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--
 			<div class="portfoliopics">
 				<div class="portpic">
 					<img src="https://i.ytimg.com/vi/g2ag8t7AvX8/maxresdefault.jpg" alt="dog pic" class="testpic">
@@ -46,9 +85,9 @@
 					<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
 				</div>
 			</div>
+			-->
 		</div>
-		<div class="section contactme" id="contact">
-		<!--
+		<div class="container-fluid contactme" id="contact">
 			<form>
 				<div class="form-group">
 					<label for="emailInput"></label>
@@ -63,7 +102,7 @@
 					</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
-		-->
+
 
 		</div>
 	</body>

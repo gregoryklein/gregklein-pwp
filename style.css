@@ -6,11 +6,16 @@
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	font-family: 'Nunito', sans-serif;
-	margin: 0;
+	font-family: 'Nunito', 'Helvetica Neue', 'Calibri', sans-serif !important;
 }
+
+
+/* bootstrap customized styling */
+.card {
+	display: flex;
+
+}
+
 
 .section {
 	width: 100vw;
