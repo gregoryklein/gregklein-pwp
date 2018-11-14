@@ -26,12 +26,6 @@ h2 {
 	justify-content: center;
 }
 
-.homeImage {
-	object-fit: none;
-	width: 100%;
-	height: 60vh;
-}
-
 .jobtitle {
 	display: flex;
 	justify-content: center;
@@ -63,9 +57,65 @@ h2 {
 }
 
 .contactme {
-	margin-top: 200px;
+	display: flex;
+	align-items: center;
 }
 
+@media (min-width: 100px) {
+	.homeImage {
+		object-fit: none;
+		width: 100%;
+		height: 50vh;
+	}
+	.altImage {
+		display: none;
+	}
+}
+
+@media (min-width: 400px) {
+	.homeImage {
+		display: none;
+	}
+	.altImage {
+	display: flex;
+	justify-content: center;
+	height: 72px;
+	width: 72px;
+	}
+}
+
+/*
 @media (min-width: 560px) {
 
 }
+
+@media (min-width: 300px) {
+	html {
+	font-size: 0.8rem !important;
+	}
+}
+
+@media (max-width: 576px) {
+	html {
+		font-size: 1.2rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 1.4rem !important;
+	}
+}
+
+@media (min-width: 1000px) {
+	html {
+		font-size: 1.6rem !important;
+	}
+}
+
+@media (min-width: 1300px) {
+	html {
+		font-size: 1.8rem !important;
+	}
+}
+*/
