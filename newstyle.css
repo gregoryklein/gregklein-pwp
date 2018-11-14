@@ -25,11 +25,6 @@ body {
 	padding-top: 55px;
 }
 
-h2 {
-	display: flex;
-	justify-content: center;
-}
-
 .jobtitle {
 	/*
 	font-size: 150%;
@@ -60,6 +55,14 @@ h2 {
 	padding: 5px;
 }
 
+.portheader {
+	text-align: center;
+}
+
+.contactheader {
+	text-align: center;
+}
+
 .iconRow {
 	display: flex;
 	justify-content: center;
@@ -77,9 +80,13 @@ h2 {
 	font-size: 2.8rem;
 	text-align: center;
 	}
+	.jobtitle {
+	font-size: 1.4rem;
+	text-align: center;
+	}
 	.fillerspace {
 		height: 50vh;
-		width: 100vw;
+		width: 80vw;
 	}
 }
 
@@ -88,9 +95,21 @@ h2 {
 		font-size: 4rem;
 		text-align: center;
 	}
+	.jobtitle {
+		font-size: 2.1rem;
+		text-align: center;
+	}
 	.fillerspace {
-		height: 30vh;
-		width: 100vw;
+		height: 21vh;
+		width: 80vw;
+	}
+}
+
+/* media query for iPad portrait mode */
+@media (min-width: 760px) and (orientation: portrait) {
+	.fillerspace {
+		height: 70vh;
+		width: 80vw;
 	}
 }
 
@@ -99,11 +118,27 @@ h2 {
 		font-size: 4.5rem;
 		text-align: left;
 	}
+	.jobtitle {
+		font-size: 3.2rem;
+		text-align: right;
+	}
+	.fillerspace {
+		height: 60vh;
+		width: 80vw;
+	}
 }
 
 @media (min-width: 1300px) {
 	h1 {
 		font-size: 6rem;
 		text-align: left;
+	}
+	.jobtitle {
+		font-size: 3.8rem;
+		text-align: right;
+	}
+	.fillerspace {
+		height: 60vh;
+		width: 80vw;
 	}
 }
