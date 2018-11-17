@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/* CSS variables */
+:root {
+
+}
+
+body {
+	font-family: 'Nunito', 'Helvetica Neue', 'Calibri', sans-serif !important;
+}
+
+
+/* bootstrap customized styling */
+.card {
+	display: flex;
+
+}
+
+
+.section {
+	width: 100vw;
+	height: 100vh;
+}
+
+/* styling for the sticky nav bar */
+.stickynav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 30px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: #9c9c9c;
+}
+
+a:hover {
+	color: #575757;
+}
+
+a:active {
+	color: #000;
+}
+
+a:visited {
+	color: #adadad;
+}
+
+/* styling for the landing page and contents */
+.landingpage {
+	background-color: white;
+}
+
+.name {
+	display: flex;
+	padding-top: 5vh;
+	font-size: 2em;
+	justify-content: center;
+}
+
+.imagespace {
+	width: 100vw;
+	height: 35vh;
+	background-color: #000;
+}
+
+.jobtitle {
+	display: flex;
+	justify-content: center;
+	font-size: 150%;
+}
+
+.languages {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 2vw;
+}
+
+/* portfolio section */
+.portfolio {
+	background-color: #e7e7e7;
+}
+
+
+.portfoliopics {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.portpic {
+	max-width: 60vw;
+}
+
+.testpic {
+	width: 60vw;
+	margin-top: 6vh;
+	margin-bottom: 10vh;
+	object-fit: scale-down;
+	max-width: 60vw;
+}
+
+/* contact me section */
+.contactme {
+	background-color: #d1d1d1;
+}
+
+/* desktop style */
+@media (min-width: 600px) {
+
+	.portfoliopics {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.testpic {
+		object-fit: scale-down;
+		max-width: 35vw;
+		/*
+		width: 35vw;
+		height: 35vh;
+		*/
+	}
+
+	.languages {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		font-size: 4vh;
+	}
+
+	.name {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 7vh;
+		margin-left: 3vw;
+	}
+
+	.jobtitle {
+		display: flex;
+		justify-content: flex-end;
+		font-size: 4vh;
+		margin-right: 5vw;
+	}
+}
