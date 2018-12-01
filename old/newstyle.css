@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-/* CSS variables */
-:root {
-
-}
-
 body {
 	font-family: 'Nunito', 'Helvetica Neue', 'Calibri', sans-serif !important;
 }
+
 /*
 .section {
 	width: 100vw;
