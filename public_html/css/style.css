@@ -7,3 +7,8 @@
 	height: 10vh;
 
 }
+
+.social-buttons {
+	display: flex;
+	justify-content: space-evenly;
+}
